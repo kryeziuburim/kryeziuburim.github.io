@@ -933,38 +933,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="bg-white py-12 md:py-20 lg:py-32">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="bg-[#1a1f2e] rounded-3xl px-6 md:px-12 py-16 lg:py-20">
-            <div className="text-center space-y-8">
-              {/* Heading */}
-              <div className="space-y-4">
-                <h2 className="text-3xl lg:text-4xl font-bold text-white leading-tight">
-                  Ready for digital claims management?
-                </h2>
-                <p className="text-lg text-white/90 max-w-3xl mx-auto">
-                  Start today with a non-binding demo and experience how Claimity transforms your processes.
-                </p>
-              </div>
-
-              <div className="flex flex-wrap justify-center gap-4">
-                <Link href="/en/#book">
-                  <Button className="bg-white hover:bg-gray-100 text-gray-900 px-6 py-4 sm:px-8 sm:py-6 text-base rounded-lg font-medium">
-                    Request a demo
-                  </Button>
-                </Link>
-                <Link href="/en/contact">
-                  <Button className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-4 sm:px-8 sm:py-6 text-base rounded-lg font-medium">
-                    Contact us
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <Footer />
     </div>
