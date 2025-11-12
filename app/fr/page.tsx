@@ -272,7 +272,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
               {/* Step 1 */}
               <div className="space-y-6">
-                <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center relative z-10">
+                <div className="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center relative z-10">
                   <span className="text-2xl font-bold text-white">1</span>
                 </div>
                 <div className="space-y-3">
@@ -285,7 +285,7 @@ export default function Home() {
 
               {/* Step 2 */}
               <div className="space-y-6">
-                <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center relative z-10">
+                <div className="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center relative z-10">
                   <span className="text-2xl font-bold text-white">2</span>
                 </div>
                 <div className="space-y-3">
@@ -298,7 +298,7 @@ export default function Home() {
 
               {/* Step 3 */}
               <div className="space-y-6">
-                <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center relative z-10">
+                <div className="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center relative z-10">
                   <span className="text-2xl font-bold text-white">3</span>
                 </div>
                 <div className="space-y-3">
@@ -311,7 +311,7 @@ export default function Home() {
 
               {/* Step 4 */}
               <div className="space-y-6">
-                <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center relative z-10">
+                <div className="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center relative z-10">
                   <span className="text-2xl font-bold text-white">4</span>
                 </div>
                 <div className="space-y-3">
