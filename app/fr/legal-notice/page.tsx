@@ -12,7 +12,7 @@ export default function LegalNoticeFR() {
           </h1>
 
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
-            <p className="text-gray-600">Informations conformément au droit suisse.</p>
+            <p className="text-gray-600">Informations conformément au droit suisse (Art. 3 lit. s Nr. 1 UWG).</p>
 
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Adresse</h2>

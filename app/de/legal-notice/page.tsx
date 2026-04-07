@@ -10,7 +10,7 @@ export default function LegalNoticeDE() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-balance break-words hyphens-auto">Impressum</h1>
 
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
-            <p className="text-gray-600">Angaben gemäss Art. 8 UWG</p>
+            <p className="text-gray-600">Angaben gemäss Art. 3 lit. s Nr. 1 UWG</p>
 
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Anschrift</h2>

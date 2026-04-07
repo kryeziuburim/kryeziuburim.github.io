@@ -13,7 +13,7 @@ export default function LegalNoticeEN() {
 
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 space-y-8">
             <p className="text-gray-600">
-              Information according to Swiss law.
+              Information according to Swiss law (Art. 3 lit. s Nr. 1 UWG).
             </p>
 
             <section>
