@@ -550,7 +550,7 @@ export default function Home() {
                     <UserCog className="h-7 w-7 text-[#329AA1]" />
                   </div>
                   <div className="space-y-3">
-                    <h3 className="text-xl font-bold text-gray-900">Surveyors</h3>
+                    <h3 className="text-xl font-bold text-gray-900">Appraiser</h3>
                     <p className="text-sm text-gray-600">Professional assessment of building and household damage</p>
                   </div>
 
@@ -624,13 +624,11 @@ export default function Home() {
             </div>
 
             {/* Card 4 - Specialty expertise */}
-            <div className="relative bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col h-full">
-              <div className="absolute inset-0 bg-white/45 backdrop-blur-[0.5px] z-10" />
-              <div className="absolute right-5 top-5 z-20 rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-teal-700">
-                Coming soon
-              </div>
+            <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+              {/* Icon shown below instead of image */}
 
-              <div className="relative p-8 flex flex-col flex-1">
+              {/* Content */}
+              <div className="p-8 flex flex-col flex-1">
                 <div className="space-y-6 flex-1">
                   <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <FileText className="h-7 w-7 text-[#329AA1]" />
@@ -642,6 +640,7 @@ export default function Home() {
                     </p>
                   </div>
 
+                  {/* Checkmark List */}
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
@@ -668,12 +667,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <Button
-                  disabled
-                  className="w-full bg-teal-600 text-white py-6 rounded-lg mt-6 opacity-70 cursor-not-allowed hover:bg-teal-600"
-                >
-                  Request consultation
-                </Button>
+                <Link href="/en/#book">
+                  <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white py-6 rounded-lg mt-6">
+                    Request consultation
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
