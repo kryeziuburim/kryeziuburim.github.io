@@ -485,14 +485,15 @@ export default function Home() {
           {/* Section Header */}
           <div className="text-center mb-10 md:mb-16 space-y-4">
             <p className="text-sm font-semibold text-teal-600 tracking-wide uppercase">Leistungsbereiche</p>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">Drei Dienstleistungen – eine Plattform</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">Vier Dienstleistungen – eine Plattform</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Von Fahrzeugschäden über Gebäudegutachten bis zur Betrugsermittlung: Claimity deckt alle Bereiche ab.
+              Von Fahrzeugschäden über Gebäudegutachten bis zu Spezialexpertisen und Betrugsermittlung: Claimity deckt
+              alle Bereiche ab.
             </p>
           </div>
 
-          {/* Service Cards Grid - 3 columns */}
-          <div className="grid md:grid-cols-3 gap-6">
+          {/* Service Cards Grid - 4 columns */}
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
             {/* Card 1 - Fahrzeugexpertisen */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
               {/* Icon shown below instead of image */}
@@ -618,6 +619,60 @@ export default function Home() {
                     Beratung anfragen
                   </Button>
                 </Link>
+              </div>
+            </div>
+
+            {/* Card 4 - Spezialexpertisen */}
+            <div className="relative bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col h-full">
+              <div className="absolute inset-0 bg-white/45 backdrop-blur-[0.5px] z-10" />
+              <div className="absolute right-5 top-5 z-20 rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-teal-700">
+                Bald verfügbar
+              </div>
+
+              <div className="relative p-8 flex flex-col flex-1">
+                <div className="space-y-6 flex-1">
+                  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm">
+                    <FileText className="h-7 w-7 text-[#329AA1]" />
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="text-xl font-bold text-gray-900">Spezialexpertisen</h3>
+                    <p className="text-sm text-gray-600">
+                      Professionelle Begutachtung für technische Sonderfälle und komplexe Spezialgebiete
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">Landmaschinen</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Eisenbahnexpertisen: Schienenfahrzeuge, Infrastruktur, Betriebsereignisse
+                      </span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Schiffsgutachten: Schäden, Bewertungen, technische Analysen
+                      </span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Gerichtsgutachten: Fachlich belastbare Expertisen für Verfahren
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <Button
+                  disabled
+                  className="w-full bg-teal-600 text-white py-6 rounded-lg mt-6 opacity-70 cursor-not-allowed hover:bg-teal-600"
+                >
+                  Beratung anfragen
+                </Button>
               </div>
             </div>
           </div>

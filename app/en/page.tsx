@@ -486,14 +486,15 @@ export default function Home() {
           {/* Section Header */}
           <div className="text-center mb-10 md:mb-16 space-y-4">
             <p className="text-sm font-semibold text-teal-600 tracking-wide uppercase">Service areas</p>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">Three services — one platform</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">Four services — one platform</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              From vehicle damage to building assessments to fraud investigation: Claimity covers them all.
+              From vehicle damage to building assessments, specialty expertise, and fraud investigation: Claimity covers
+              them all.
             </p>
           </div>
 
-          {/* Service Cards Grid - 3 columns */}
-          <div className="grid md:grid-cols-3 gap-6">
+          {/* Service Cards Grid - 4 columns */}
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
             {/* Card 1 - Vehicle assessments */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
               {/* Icon shown below instead of image */}
@@ -619,6 +620,60 @@ export default function Home() {
                     Request consultation
                   </Button>
                 </Link>
+              </div>
+            </div>
+
+            {/* Card 4 - Specialty expertise */}
+            <div className="relative bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col h-full">
+              <div className="absolute inset-0 bg-white/45 backdrop-blur-[0.5px] z-10" />
+              <div className="absolute right-5 top-5 z-20 rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-teal-700">
+                Coming soon
+              </div>
+
+              <div className="relative p-8 flex flex-col flex-1">
+                <div className="space-y-6 flex-1">
+                  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm">
+                    <FileText className="h-7 w-7 text-[#329AA1]" />
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="text-xl font-bold text-gray-900">Specialty expertise</h3>
+                    <p className="text-sm text-gray-600">
+                      Professional assessment for technical edge cases and highly specialized fields
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">Agricultural machinery</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Rail expertise: rolling stock, infrastructure, operational incidents
+                      </span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Marine surveys: damage, valuations, technical analyses
+                      </span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-gray-700">
+                        Court reports: technically robust expert opinions for legal proceedings
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <Button
+                  disabled
+                  className="w-full bg-teal-600 text-white py-6 rounded-lg mt-6 opacity-70 cursor-not-allowed hover:bg-teal-600"
+                >
+                  Request consultation
+                </Button>
               </div>
             </div>
           </div>
