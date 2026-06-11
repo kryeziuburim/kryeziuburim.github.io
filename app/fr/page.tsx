@@ -456,7 +456,7 @@ export default function Home() {
               <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm">
                 <Shield className="h-7 w-7 text-[#329AA1]" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900">LPD/RGPD & Hosting en Suisse</h3>
+              <h3 className="text-xl font-bold text-gray-900">LPD/RGPD conforme & Hosting en Suisse</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                 <div className="flex items-center gap-2">
                   <span className="text-gray-400">•</span>
